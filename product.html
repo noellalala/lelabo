@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/product_layout.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;600&family=Zilla+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/product.js"></script>
+    <title>le labo product</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1><a href="index.html"><img src="img/logo.png" alt="르 라보 로고 이미지"></a></h1>
+            <nav>
+                <ul>
+                    <li class="main_nav"><a href="brand_story.html">BRAND</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">BRAND</p></li>
+                            <li><a href="brand_story.html">브랜드</a></li>
+                            <li><a href="ingredient.html">성분</a></li>
+                            <li><div class="sub_nav_bg brand"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">FRAGRANCE</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">FRAGRANCE</p></li>
+                            <li><a href="product.html">클래식</a></li>
+                            <li><a href="product.html">디스커버리</a></li>
+                            <li><a href="product.html">트래블튜브</a></li>
+                            <li><a href="product.html">리퀴드 밤</a></li>
+                            <li><a href="product.html">바디밤 솝</a></li>
+                            <li><div class="sub_nav_bg fragrance"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">HAIR TO BODY</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">HAIR TO BODY</p></li>
+                            <li><a href="product.html">바디</a></li>
+                            <li><a href="product.html">헤어</a></li>
+                            <li><a href="product.html">페이스</a></li>
+                            <li><a href="product.html">향</a></li>
+                            <li><div class="sub_nav_bg hair"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">HOME</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">HOME</p></li>
+                            <li><a href="product.html">클래식 캔들</a></li>
+                            <li><a href="product.html">홈 프래그런스</a></li>
+                            <li><a href="product.html">콘크리트 캔들</a></li>
+                            <li><a href="product.html">보티브</a></li>
+                            <li><a href="product.html">디스커버리</a></li>
+                            <li><div class="sub_nav_bg home"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">GROOMING</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">GROOMING</p></li>
+                            <li><a href="product.html">그루밍</a></li>
+                            <li><div class="sub_nav_bg grooming"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">COLLECTION</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">COLLECTION</p></li>
+                            <li><a href="product.html">클래식 컬렉션</a></li>
+                            <li><a href="product.html">클래식 캔들</a></li>
+                            <li><a href="product.html">바 솝</a></li>
+                            <li><div class="sub_nav_bg collection"></div></li>
+                        </ul>
+                    </li>
+                    <li class="main_nav"><a href="product.html">LIFE STYLE</a>
+                        <ul class="sub_nav">
+                            <li><p class="sub_nav_title">LIFE STYLE</p></li>
+                            <li><a href="product.html">라이프 스타일</a></li>
+                            <li><div class="sub_nav_bg life"></div></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav_icon">
+                <a href="account.html">
+                    <svg id="account" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 1H1V16H12" stroke="black"/>
+                        <line x1="16" y1="8.5" x2="9" y2="8.5" stroke="black"/>
+                        <path d="M11.4749 10.9497L8.99998 8.47486L11.4749 5.99999" stroke="black"/>
+                    </svg> 
+                </a>
+                <a href="#">                 
+                    <svg id="cart" width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.45937 15.5L0.544221 4.71429H14.4558L13.5406 15.5H1.45937Z" stroke="black"/>
+                        <path d="M5 4.21429V1H10V4.21429" stroke="black"/>
+                        <circle cx="5.5" cy="6.5" r="0.5" fill="black"/>
+                        <circle cx="9.5" cy="6.5" r="0.5" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="min_width_menu">
+                <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="0.5" x2="15" y2="0.5" stroke="black"/>
+                    <line y1="6.5" x2="15" y2="6.5" stroke="black"/>
+                    <line y1="12.5" x2="15" y2="12.5" stroke="black"/>
+                </svg>                        
+            </div>
+        </header>
+        <!-- product_wrap -->
+        <div class="content_wrap">
+            <div class="content_title">
+                <h4>FRAGRANCE</h4>
+                <p>르 라보만의 성분 배합으로 만들어진 오드 퍼퓸</p>
+            </div>
+            <div class="content_nav">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">50ml</a></li>
+                    <li><a href="#">100ml</a></li>
+                    <li><a href="#">500ml</a></li>
+                    <li><a href="#">15ml</a></li>
+                    <li><a href="#">1.5ml 디스커버리</a></li>
+                    <li><a href="#">10ml 여행 튜브 리필 세트</a></li>
+                </ul>
+            </div>
+            <!-- con_line1 -->
+            <div class="con_line1">
+                <div class="con_ad1"></div>
+                <div class="con1">
+                    <ul>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/ANOTHER13_1_1.webp" alt="어나더 13 15ml"></a>
+                            <div class="main_con_text">
+                                <h5>ANOTHER 13</h5>
+                                <p>어나더 13 15ml</p>
+                                <span>132,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/ANOTHER13_2_1.webp" alt="어나더 13 50ml"></a>
+                            <div class="main_con_text">
+                                <h5>ANOTHER 13</h5>
+                                <p>어나더 13 50ml</p>
+                                <span>310,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/ANOTHER13_3_1.webp" alt="어나더 13 100ml"></a>
+                            <div class="main_con_text">
+                                <h5>ANOTHER 13</h5>
+                                <p>어나더 13 100ml</p>
+                                <span>440,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/ANOTHER13_4_1.webp" alt="어나더 13 500ml"></a>
+                            <div class="main_con_text">
+                                <h5>ANOTHER 13</h5>
+                                <p>어나더 13 500ml</p>
+                                <span>1,500,000원</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- con_line2 -->
+            <div class="con_line2">
+                <div class="con2">
+                    <ul>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/LAVANDE31_1_1.webp" alt="라방드 31 15ml"></a>
+                            <div class="main_con_text">
+                                <h5>LAVANDE 31</h5>
+                                <p>라방드 31 15ml</p>
+                                <span>132,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/LAVANDE31_2_1.webp" alt="라방드 31 50ml"></a>
+                            <div class="main_con_text">
+                                <h5>LAVANDE 31</h5>
+                                <p>라방드 31 50ml</p>
+                                <span>310,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/LAVANDE31_3_1.webp" alt="라방드 31 100ml"></a>
+                            <div class="main_con_text">
+                                <h5>LAVANDE 31</h5>
+                                <p>라방드 31 100ml</p>
+                                <span>440,000원</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="product_sub.html"><img src="img/4_product/LAVANDE31_4_1.webp" alt="라방드 31 500ml"></a>
+                            <div class="main_con_text">
+                                <h5>LAVANDE 31</h5>
+                                <p>라방드 31 500ml</p>
+                                <span>1,500,000원</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- con_line3 -->
+        <div class="con_line3">
+            <div class="con3">
+                <ul>
+                    <li>
+                        <a href="product_sub.html"><img src="img/4_product/SANTAL33_1_1.webp" alt="상탈 33 15ml"></a>
+                        <div class="main_con_text">
+                            <h5>SANTAL 33</h5>
+                            <p>상탈 33 15ml</p>
+                            <span>132,000원</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="product_sub.html"><img src="img/4_product/SANTAL33_2_1.webp" alt="상탈 33 50ml"></a>
+                        <div class="main_con_text">
+                            <h5>SANTAL 33</h5>
+                            <p>상탈 33 50ml</p>
+                            <span>310,000원</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="product_sub.html"><img src="img/4_product/SANTAL33_3_1.webp" alt="상탈 33 100ml"></a>
+                        <div class="main_con_text">
+                            <h5>SANTAL 33</h5>
+                            <p>상탈 33 100ml</p>
+                            <span>440,000원</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="product_sub.html"><img src="img/4_product/SANTAL33_4_1.webp" alt="상탈 33 500ml"></a>
+                        <div class="main_con_text">
+                            <h5>SANTAL 33</h5>
+                            <p>상탈 33 500ml</p>
+                            <span>1,500,000원</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="con_ad2"></div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer_left">
+                <ul>
+                    <li>이엘씨에이한국(유) 대표: Teng, Hsiao-Hua (Catherine)
+                        <br>서울시 강남구 강남대로 382 (역삼동) 메리츠타워, 06232
+                        <br>사업자등록번호: 211-81-71889</li>
+                    <li>통신판매업신고번호: 강남-15737호
+                        <br>르 라보 홈페이지 구매 관련 문의: 1544-1345
+                        <br>호스팅제공자: Amazon Web Services</li>
+                    <li>conciergekr@lelabofragrances.com</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <ul>
+                    <li><a href="#">ABOUT Le Labo</a></li>
+                    <li><a href="#">르 라보 소개</a></li>
+                    <li><a href="#">디스커버리</a></li>
+                    <li><a href="#">르 저널</a></li>
+                    <li><a href="#">퍼스널 라벨링</a></li>
+                </ul>
+            </div>
+            <div class="footer_right">
+                <ul>
+                    <li>주문배송</li>
+                    <li>배송 및 반품</li>
+                </ul>
+                <ul>
+                    <li>스토어 정보</li>
+                    <li>매장 찾기</li>
+                </ul>
+                <ul>
+                    <li>고객서비스</li>
+                    <li>문의</li>
+                    <li>개인정보 처리방침</li>
+                    <li>이용 약관</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
